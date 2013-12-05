@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title>Cinshui.css</title>
+	<link rel="stylesheet" type="text/css" href="css/cinshui.css">
+	<style type="text/css">
+		@media screen and (min-width: 960px) {
+			.container {
+				max-width: 900px;
+				margin: auto;
+			}
+		}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<article class="markdown">
+			<h1 id="cinshui">清水 Cinshui.css</h1>
+			<p><ruby>清水<rt>cìnshūí</rt></ruby>是 GitHub Markdown 風格的文件樣式，採用<a href="https://github.com/ethantw/Han">漢字標準格式</a>架構為基礎。</p>
+			<h2 id="usage">使用方式</h2>
+			<p>可以直接使用專案內的 <code>css/cinshui.css</code>。如果打算自行編譯，可以參考下列步驟：</p>
+			<pre><code>$ git clone https://github.com/rschiang/cinshui.css.git
+$ gem install sass compass
+$ cd cinshui.css
+$ compass compile</code></pre>
+
+			<p><code>sass/vendor/_han.scss</code> 來自漢字標準格式的 <code>css/han.css</code>，如有需要可手動更新。</p>
+			<h2 id="license">授權</h2>
+			<p>採用 <a href="LICENSE.md">MIT License</a>，你可以自由的使用、修改、散佈，惟原作者不對此專案負擔保責任。</p>
+		</article>
+		<a href="https://github.com/rschiang/cinshui.css.git"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png" alt="Fork me on GitHub"></a>
+	</div>
+</body>
+</html>
