@@ -1,6 +1,6 @@
 @import "vendor/han";
 
-article.markdown {
+article.cinshui {
 	margin: 2em;
 
 	& > *:first-child { margin-top: 0 !important; }
@@ -92,5 +92,9 @@ article.markdown {
 		border: none;
 		background: transparent;
 		word-wrap: normal;
+	}
+
+	img, video, embed {
+		max-width: 100%;
 	}
 }
