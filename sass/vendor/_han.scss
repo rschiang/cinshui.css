@@ -1786,7 +1786,7 @@ article strong:not(:lang(zh)):not(:lang(ja)),
 article strong *:lang(zh-Latn),
 article strong *:lang(ja-Latn),
 article strong *:not(:lang(zh)):not(:lang(ja)) {
-  font-family: "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Source Han Sans TC", "Han Heiti", sans-serif;
 }
 
 html:lang(zh),
@@ -1797,7 +1797,7 @@ html:lang(zh-Hant),
 [lang="zh-HK"],
 article strong:lang(zh),
 article strong:lang(zh-Hant) {
-  font-family: "Biaodian Pro Sans CNS", "Helvetica Neue", Helvetica, Arial, "Zhuyin Heiti", "Han Heiti", sans-serif;
+  font-family: "Source Han Sans TC", "Biaodian Pro Sans CNS", "Helvetica Neue", Helvetica, Arial, "Zhuyin Heiti", "Han Heiti", sans-serif;
 }
 
 html:lang(zh-Hans),
@@ -1806,13 +1806,13 @@ html:lang(zh-CN),
 [lang="zh-CN"],
 article strong:lang(zh-Hans),
 article strong:lang(zh-CN) {
-  font-family: "Biaodian Pro Sans GB", "Helvetica Neue", Helvetica, Arial, "Han Heiti GB", sans-serif;
+  font-family: "Source Han Sans SC", "Biaodian Pro Sans GB", "Helvetica Neue", Helvetica, Arial, "Han Heiti GB", sans-serif;
 }
 
 html:lang(ja),
 [lang^="ja"],
 article strong:lang(ja) {
-  font-family: "Yakumono Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Han Sans", "Yakumono Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /**
@@ -1830,26 +1830,26 @@ article blockquote var:not(:lang(zh)):not(:lang(ja)),
 article blockquote var *:lang(zh-Latn),
 article blockquote var *:lang(ja-Latn),
 article blockquote var *:not(:lang(zh)):not(:lang(ja)) {
-  font-family: "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif;
+  font-family: "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Source Han Sans TC", "Han Heiti", sans-serif;
 }
 
 article blockquote i:lang(zh),
 article blockquote i:lang(zh-Hant),
 article blockquote var:lang(zh),
 article blockquote var:lang(zh-Hant) {
-  font-family: "Biaodian Pro Sans CNS", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Zhuyin Heiti", "Han Heiti", sans-serif;
+  font-family: "Source Han Sans TC", "Biaodian Pro Sans CNS", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Zhuyin Heiti", "Han Heiti", sans-serif;
 }
 
 article blockquote i:lang(zh-Hans),
 article blockquote i:lang(zh-CN),
 article blockquote var:lang(zh-Hans),
 article blockquote var:lang(zh-CN) {
-  font-family: "Biaodian Pro Sans GB", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti GB", sans-serif;
+  font-family: "Source Han Sans SC", "Biaodian Pro Sans GB", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti GB", sans-serif;
 }
 
 article blockquote i:lang(ja),
 article blockquote var:lang(ja) {
-  font-family: "Yakumono Sans", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Source Han Sans", "Yakumono Sans", "Latin Italic Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 article figure blockquote:lang(zh-Latn),
@@ -1973,7 +1973,7 @@ pre:not(:lang(zh)):not(:lang(ja)),
 pre *:lang(zh-Latn),
 pre *:lang(ja-Latn),
 pre *:not(:lang(zh)):not(:lang(ja)) {
-  font-family: Menlo, Consolas, Courier, "Han Heiti", monospace, monospace, sans-serif;
+  font-family: Menlo, Consolas, Courier, "Source Han Sans TC", "Han Heiti", monospace, monospace, sans-serif;
 }
 
 code:lang(zh),
@@ -1984,7 +1984,7 @@ samp:lang(zh),
 samp:lang(zh-Hant),
 pre:lang(zh),
 pre:lang(zh-Hant) {
-  font-family: "Biaodian Pro Sans CNS", Menlo, Consolas, Courier, "Zhuyin Heiti", "Han Heiti", monospace, monospace, sans-serif;
+  font-family: "Source Han Sans TC", "Biaodian Pro Sans CNS", Menlo, Consolas, Courier, "Zhuyin Heiti", "Han Heiti", monospace, monospace, sans-serif;
 }
 
 code:lang(zh-Hans),
@@ -1995,14 +1995,14 @@ samp:lang(zh-Hans),
 samp:lang(zh-CN),
 pre:lang(zh-Hans),
 pre:lang(zh-CN) {
-  font-family: "Biaodian Pro Sans GB", Menlo, Consolas, Courier, "Han Heiti GB", monospace, monospace, sans-serif;
+  font-family: "Source Hans Sans SC", "Biaodian Pro Sans GB", Menlo, Consolas, Courier, "Han Heiti GB", monospace, monospace, sans-serif;
 }
 
 code:lang(ja),
 kbd:lang(ja),
 samp:lang(ja),
 pre:lang(ja) {
-  font-family: "Yakumono Sans", Menlo, Consolas, Courier, monospace, monospace, sans-serif;
+  font-family: "Source Han Sans", "Yakumono Sans", Menlo, Consolas, Courier, monospace, monospace, sans-serif;
 }
 
 html,
@@ -2035,7 +2035,7 @@ ruby.romanization rt,
 ruby ru[annotation]:before,
 hruby.romanization rt,
 hruby ru[annotation]:before {
-  font-family: "Romanization Sans", "Helvetica Neue", Helvetica, Arial, "Han Heiti", sans-serif;
+  font-family: "Romanization Sans", "Helvetica Neue", Helvetica, Arial, "Source Han Sans TC", "Han Heiti", sans-serif;
 }
 
 /* Global
