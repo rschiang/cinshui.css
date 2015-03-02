@@ -19,6 +19,7 @@ article.cinshui {
 			margin: 1em 0 16px;
 
 			code { font-size: inherit; }
+			+ blockquote, + p, + ol, + ul { margin-top: 0; }
 		}
 	}
 
